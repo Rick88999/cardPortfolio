@@ -33,6 +33,10 @@ function Card({ title, description, imageUrl, links, projects}) {
       duration: 1600,
       delay: 800,
       ease: "outQuad",
+      onComplete: () => {
+        projectsRef.current.style.maxHeight = "none";
+        projectsRef.current.style.overflow = "visible";
+      },
     });
 
     return () => {
