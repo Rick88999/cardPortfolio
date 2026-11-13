@@ -3,7 +3,7 @@ import "./css/card.css";
 import { animate, set } from 'animejs';
 import LinkDeployer from "./LinkDeployer";
 import ProjectBox from "./ProjectBox";
-import doc  from './Riccardo_Tulini_CV_5.pdf';
+import doc  from './Riccardo_Tulini_CV_6.pdf';
 
 function Card({ title, description, imageUrl, links, projects}) {
   const [expandedProject, setExpandedProject] = useState(null);
