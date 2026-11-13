@@ -1,0 +1,167 @@
+.card {
+  padding: 28px;
+  margin-right: 3%;
+  margin-left: 3%;
+  max-width: 90%;
+  text-align: center;
+  border-radius: 16px;
+  background: linear-gradient(
+    120deg,
+    #0f172a,
+    #12174a 48%
+  );
+  border: 1px solid rgba(94, 234, 212, 0.22);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.45);
+  animation: fade-in 1s ease-out forwards;
+}
+
+.card > img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid rgba(94, 234, 212, 0.35);
+}
+.titleAndLinks {
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 44px;
+}
+
+.TandL-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+
+.linksBoard {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.linksBoard a {
+  display: flex;
+}
+
+.linksBoard svg,
+.linksBoard img {
+  width: 48px;
+  height: 48px;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  align-items: center;
+}
+
+.card h2 {
+  font-size: 30px;
+  color: #f1f5f9;
+  font-weight: 700;
+}
+
+.card p {
+  font-size: 20px;
+  line-height: 1.5;
+  color: #9aa4ad;
+}
+
+.description-box {
+  margin-top: 20px;
+  padding: 18px 24px;
+  background: linear-gradient(
+    135deg,
+    rgba(30, 41, 59, 0.92),
+    rgba(49, 46, 129, 0.72)
+  );
+  border: 1px solid rgba(103, 232, 249, 0.3);
+  border-radius: 16px;
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.08),
+    0 8px 24px rgba(8, 15, 40, 0.3);
+    width: 80%;
+}
+
+.description-box p {
+  margin: 0;
+  color: #cbd5e1;
+}
+
+-project-box {
+  position: relative;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project-box > h3 {
+  margin: -6px 0 8px;
+}
+
+
+@media (max-width: 768px) {
+  .card {
+    padding: 20px;
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+
+  .card h2 {
+    font-size: 24px;
+  }
+
+  .card p {
+    font-size: 16px;
+  }
+
+  .linksBoard svg,
+  .linksBoard img {
+    width: 44px;
+    height: 44px;
+  }
+}
+
+@media (max-width: 535px) {
+  .card {
+    padding: 16px;
+    margin-right: 10%;
+    margin-left: 10%;
+  }
+  .TandL-box {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .card h2 {
+    font-size: 24px;
+  }
+
+  .card p {
+    font-size: 20px;
+  }
+
+  .linksBoard svg,
+  .linksBoard img {
+    width: 44px;
+    height: 44px;
+  }
+}
+@media (max-width: 434px) {
+.TandL-box {
+  flex-direction: column;
+  gap: 10px;
+}
+}
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}

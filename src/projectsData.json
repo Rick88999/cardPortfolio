@@ -1,0 +1,19 @@
+{
+    "projects": [
+        {
+        "projectTitle": "VR Physics Garden 2",
+        "projectLabel": "Gioco educativo in realtà virtuale per l'apprendimento e/o il ripasso della fisica, sviluppato in Unity con XR Interaction Toolkit",
+        "projectUrl": "https://github.com/Rick88999/Physics-Garden-2.0-Tulini-Riccardo"
+        },
+        {
+        "projectTitle": "Pixel-Hub",
+        "projectLabel": "Un hub web per acquistare e scaricare videogiochi, sviluppato come progetto per l'esame di Linguaggi per il Web (XHTML/CSS/JS/XML).",
+        "projectUrl": "https://github.com/AlessandroZingali/Pixel-hub"
+        },
+        {
+        "projectTitle": "Tic Tac Toe AI",
+        "projectLabel": "Un gioco di tris con un AI che impara e migliora nel tempo, sviluppato in Python (PyGame/numpy/JSON).",
+        "projectUrl": "https://github.com/Rick88999/TicTacToe-AI-Ref_Learning"
+        }
+    ]
+}

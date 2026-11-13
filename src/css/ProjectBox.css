@@ -1,0 +1,126 @@
+.project-box {
+  position: relative;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  width: min(22rem, 80vw);
+  padding: 24px;
+  border: 1px solid rgba(103, 232, 249, 0.3);
+  border-radius: 16px;
+  color: #cbd5e1;
+  background: linear-gradient(
+    135deg,
+    rgba(30, 41, 59, 0.92),
+    rgba(49, 46, 129, 0.72)
+  );
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.08),
+    0 8px 24px rgba(8, 15, 40, 0.3);
+  cursor: pointer;
+  text-align: left;
+  transition: border-color 0.2s ease;
+  width: 80%;
+  /*border: 1px solid rgb(6, 226, 255);*/
+}
+
+.project-item{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  width: min(22rem, 80vw);
+  padding: 24px;
+  border: 1px solid rgba(103, 232, 249, 0.3);
+  border-radius: 16px;
+  color: #cbd5e1;
+  background: linear-gradient(
+    135deg,
+    rgba(30, 41, 59, 0.92),
+    rgba(49, 46, 129, 0.72)
+  );
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.08),
+    0 8px 24px rgba(8, 15, 40, 0.3);
+  cursor: pointer;
+  text-align: left;
+  transition: border-color 0.2s ease;
+  width: 80%;
+  /*border: 1px solid rgb(255, 5, 5);*/
+}
+
+.project-item a {
+  color: #cbd5e1;
+  text-decoration: none;
+}
+
+.project-item a:hover {
+  text-decoration: underline;
+}
+
+.project-description {
+  overflow: hidden;
+}
+
+.project-item h2 {
+  margin: 0;
+  color: #ffffff;
+  font-size: clamp(1.1rem, 3vw, 1.5rem);
+}
+
+.project-description p {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.project-link {
+  display: block;
+  align-items: center;
+  margin-top: 6px;
+  color: #f1f5f9;
+  font-size: 1rem;
+  font-weight: 700;
+  overflow-wrap: anywhere;
+  text-align: center;
+  text-decoration: none;
+}
+
+
+
+
+
+@keyframes y-animation {
+  to { transform: translateY(100cqh); }
+}
+
+@media (max-width: 480px) {
+  .project-item {
+    padding: 16px;
+  }
+
+  .project-description p {
+    font-size: 0.875rem;
+  }
+
+  .project-link {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 401px) {
+  .project-item {
+    text-align: center;
+  }
+  .project-description p {
+    font-size: 0.75rem;
+  }
+
+  .project-link {
+    font-size: 0.7rem;
+  }
+}
+
+
+
